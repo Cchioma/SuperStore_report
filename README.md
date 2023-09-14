@@ -3,8 +3,8 @@
 The goal of this project is to analyze and derive valuable insights from a comprehensive superstore dataset that encompasses various aspects of the business. The dataset includes information such as order details, customer demographics, product categories, shipping methods, and financial metrics. The aim is to provide actionable recommendations to enhance operational efficiency, customer satisfaction, and overall profitability for the superstore chain.
 
 ## Business Questions
-1.   Profit distribution
-● Sales distribution
+1.  Profit distribution
+2.  Sales distribution
 ● Most ordered category of product
 ● Mostly ordered subcategory
 ● How the product is ordered over the year
