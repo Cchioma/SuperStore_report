@@ -1,4 +1,4 @@
-![](store_1.jpg)
+![background image](https://github.com/Cchioma/SuperStore_report/blob/main/store3.jpg)
 
 # Super Store Data Analysis
 ## Introduction
