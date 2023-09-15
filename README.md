@@ -37,6 +37,6 @@ I reviewed the first 3 rows of the dataset:
 ```
 store_data.head(3)
 ```
-1[](https://github.com/Cchioma/SuperStore_report/blob/main/head3.PNG)
+![](https://github.com/Cchioma/SuperStore_report/blob/main/head3.PNG)
 
 The dataset contained 13 columns and 41,757 rows. The dataset can be found here I cleaned them as follows:
