@@ -22,3 +22,12 @@ The goal of this project is to analyze and derive valuable insights from a compr
 15.  States with loss (negative profit)
 
 ## Data Preparation/Cleaning
+
+I cleaned and analyzed the data using Python. Firstly, I imported the necessary libraries:
+```
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+The dataset contained 13 columns and 41,757 rows. The dataset can be found here I cleaned them as follows:
