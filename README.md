@@ -68,6 +68,7 @@ The dataset contained 22 columns and 9994 rows. The dataset can be found [here](
 
 ## Analysis and Insights
 1.   Sales distribution:  I created a new column month_sales by grouping sales by month and plotted a line chart using Matplotlib.
+   
     ```
 month_sales = store_data.groupby('month')['sales'].sum()
 month_sales.plot(marker='o', markersize=8, linestyle='-')
