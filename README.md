@@ -23,11 +23,20 @@ The goal of this project is to analyze and derive valuable insights from a compr
 
 ## Data Preparation/Cleaning
 
-I cleaned and analyzed the data using Python. Firstly, I imported the necessary libraries:
+I cleaned and analyzed the data using Python on [Jupiter Notebook](). Firstly, I imported the necessary libraries:
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
+Then, I Loaded the dataset:
+```
+store_data = pd.read_csv('superstore_cleaned.csv')
+```
+I reviewed the first 3 rows of the dataset:
+```
+store_data.head(3)
+```
+1[](https://github.com/Cchioma/SuperStore_report/blob/main/head3.PNG)
 
 The dataset contained 13 columns and 41,757 rows. The dataset can be found here I cleaned them as follows:
