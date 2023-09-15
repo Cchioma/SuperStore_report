@@ -45,4 +45,26 @@ store_data.dtypes
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/distribution.PNG)
 
-The dataset contained 13 columns and 41,757 rows. The dataset can be found here I cleaned them as follows:
+The dataset contained 22 columns and 9994 rows. The dataset can be found [here](https://github.com/Cchioma/SuperStore_report/blob/main/superstore_cleaned.csv) I cleaned them as follows:
+1.  Checked for missing values and there were none.
+   ```
+  store_data.isnull().sum()
+   ```
+2.  Converted order_date column to date type
+   ```
+  store_data['order_date'] = pd.to_datetime(store_data['order_date'])
+   ```
+3.  Extracted month name from order_date column
+   ```
+  store_data['month'] = store_data['order_date'].dt.month_name()
+   ```
+4.  Sorted  month name according to calendar
+   ```
+  month_order = ['January', 'February', 'March','April', 'May','June', 'July', 
+ 'August', 'September', 'October', 'November', 'December']
+  store_data['month'] = pd.Categorical(store_data['month'], ordered=True, 
+  categories=month_order)
+  ```
+
+
+
