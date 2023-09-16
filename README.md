@@ -159,7 +159,7 @@ sns.countplot(data=store_data, x='category',hue='ship_mode')
 plt.title('Ship mode distribution by Category')
 plt.show()
 ```
-![](https://github.com/Cchioma/SuperStore_report/blob/main/region_by_category.PNG)
+![](https://github.com/Cchioma/SuperStore_report/blob/main/shipmode_category.png)
 
 #### Insight: Most products were shipped using standard class followed by second class. Most number of products shipped were in the office supplies category followed by the furniture category.
 
@@ -170,7 +170,7 @@ sns.countplot(data=store_data, x='region',hue='category')
 plt.title('Category distribution by Region')
 plt.show()
 ```
-![](https://github.com/Cchioma/SuperStore_report/blob/main/region_by_category.PNG)
+![](https://github.com/Cchioma/SuperStore_report/blob/main/cat_region.png)
 #### Insight: The most ordered category is office supplies. West region recorded the highest number of orders followed by the East region.
 
 
