@@ -194,5 +194,75 @@ plt.show()
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/cat_by_subcat.png)
 #### Insight: The most ordered sub-category is Binders followed by paper. Both sub-categories belong to the office supplies category. 
 
+11.   Sales made in each region: I created a new column region_sales by grouping sales by region and plotting a bar chart using Matplotlib.
+
+```
+region_sales = store_data.groupby('region')['sales'].sum()
+region_sales.plot(kind = 'bar')
+plt.title('Distribution of Sales across Regions')
+plt.xlabel(' ')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/region_by_sales.png)
+#### Insights: West region recorded the highest sales followed closely by the East region. The region with the least sales is the South region.
+
+12.   Profit made in each region: I created a new column region_profit by grouping profit by region and plotting a bar chart using Matplotlib.
+
+```
+region_profit = store_data.groupby('region')['profit'].sum()
+region_profit.plot(kind = 'bar')
+plt.title('Distribution of Profit across Regions')
+plt.xlabel(' ')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/profit%20by%20region.png)
+#### Insight: West region recorded the highest profit followed closely by the East region. The region with the least profit is the Central region.
+
+13.   Sales made from each category: I created a new column cat_sales by grouping sales by category and plotting a bar chart using Matplotlib.
+
+```
+cat_sales = store_data.groupby('category')['sales'].sum()
+cat_sales.plot(kind = 'bar')
+plt.title('Distribution of Sales across Product Category')
+plt.xlabel(' ')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/sales%20by%20category.png)
+
+#### Insights: The Technology category recorded the highest sales followed closely by the Furniture category.
+
+14.   Profit made from each category: I created a new column cat_profit by grouping profit by category and plotting a bar chart using Matplotlib.
+
+```
+cat_profit = store_data.groupby('category')['profit'].sum()
+cat_profit.plot(kind = 'bar')
+plt.title('Distribution of Profit across Product Category')
+plt.xlabel(' ')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/profit_by_cat.png)
+#### Insight: The Technology category generated the most profit followed closely by the office supplies category.
+
+15.   States with loss (negative profit): I created a new column store_data_neg_profit with negative profit and plotted a column chart showing the states with negative profit.
+
+```
+store_data_neg_profit = store_data[store_data['profit'] < 0]
+​fig = plt.figure(figsize=(15,10))
+#create a bar chart using Matplotlib
+plt.bar(store_data_neg_profit['state'], store_data_neg_profit['profit'], color='red')
+plt.xlabel(' ')
+plt.ylabel('Profit')
+plt.title('States with Negative Profit')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/states_loss.png)
+#### Insight: The state of Ohio recorded the least profit followed closely by North Carolina and Texas
+
+
 
 
