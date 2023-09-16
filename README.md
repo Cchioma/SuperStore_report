@@ -138,7 +138,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/product_over_time.png)
 
-### Insight: The company recorded the highest orders in January, August and November. It recorded its lowest orders in February.
+#### Insight: The company recorded the highest orders in January, August and November. It recorded its lowest orders in February.
 
 6.  Relationship between sales, profit, and quantity:  I created a scatter plot to show the relationship between sales, profit, and quantity.
 
@@ -152,7 +152,25 @@ plt.show()
 
 #### Insight: The profit increased as sales increased for a few products ordered. The quantity of products ordered did not have a significant effect on the sales and profit made in the company. The highest profit and sales occurred when just 2 orders were made. The company also recorded negative profit when a large order was made.
 
-7.   
+7.   Category and shipped class used: I created a bar chart showing the distribution of ship mode by category.
 
+ ```
+sns.countplot(data=store_data, x='category',hue='ship_mode')
+plt.title('Ship mode distribution by Category')
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/region_by_category.PNG)
+
+#### Insight: Most products were shipped using standard class followed by second class. Most number of products shipped were in the office supplies category followed by the furniture category.
+
+8.   Most ordered category of product in each region: I created a new column region_product by grouping category by region. I created a bar chart showing the total quantity of ordered goods in each category per region.
+
+```​
+sns.countplot(data=store_data, x='region',hue='category')
+plt.title('Category distribution by Region')
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/region_by_category.PNG)
+#### Insight: The most ordered category is office supplies. West region recorded the highest number of orders followed by the East region.
 
 
