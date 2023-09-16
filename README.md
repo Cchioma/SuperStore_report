@@ -53,7 +53,7 @@ store_data.describe()
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/describe.PNG)
 
 ## Data Cleaning
-The dataset contained 22 columns and 9994 rows. The dataset can be found [here](https://github.com/Cchioma/SuperStore_report/blob/main/superstore_cleaned.csv) I cleaned them as follows:
+The dataset contained 22 columns and 9994 rows. The dataset is a fictitious one and can be found [here](https://github.com/Cchioma/SuperStore_report/blob/main/superstore_cleaned.csv) I cleaned it as follows:
 
 1.  Checked for missing values and there were none.
    ```
