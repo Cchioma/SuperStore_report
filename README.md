@@ -80,7 +80,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/sales_by_month.png)
 
-#### Insight:The company recorded its highest sales in November followed by September and March. It recorded the least sales in February.
+#### Insight: The company recorded its highest sales in November followed by September and March. It recorded the least sales in February.
 
 2.    Profit distribution: I created a new column month_profit by grouping profit by month and plotted a line chart using Matplotlib.
 
@@ -138,7 +138,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/product_over_time.png)
 
-#### Insight: The company recorded the highest orders in January, August and November. It recorded its lowest orders in February.
+#### Insight: The company recorded the highest orders in January, August, and November. It recorded its lowest orders in February.
 
 6.  Relationship between sales, profit, and quantity:  I created a scatter plot to show the relationship between sales, profit, and quantity.
 
@@ -262,6 +262,16 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/states_loss.png)
 #### Insight: The state of Ohio recorded the least profit followed closely by North Carolina and Texas
+
+## Recommendations
+
+1.	Given that the company's highest sales and profits are typically recorded in November and December, They could consider launching marketing campaigns and promotions during these months to maximize revenue.
+2.	To improve January's performance, It can explore strategies to sustain the holiday season's momentum into the new year.
+3.	Since "Office Supplies" is the most ordered category, and "Binders" and "Paper" are the most ordered subcategories consider expanding the product range or introducing new, related items to capitalize on this popularity.
+4.	The company should investigate the products and circumstances that lead to negative profits with large orders. They can introduce cost-saving measures or pricing adjustments to avoid such losses.
+5.	The company should explore opportunities to optimize shipping costs and delivery times to improve customer satisfaction and potentially increase sales.
+6.	Given that the West region consistently records the highest sales and profit, The company can consider allocating additional resources and marketing efforts to it to further capitalize on this market.
+7.	The company can analyze the consumer and corporate segments' buying behavior to tailor marketing and product offerings to their specific needs and preferences.
 
 
 
