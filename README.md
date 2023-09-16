@@ -76,6 +76,18 @@ plt.title('Distribution of Sales')
 plt.xticks(rotation=45)
 plt.show()
 ```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/sales_by_month.png)
+
+2.    Profit distribution: I created a new column month_profit by grouping profit by month and plotted a line chart using Matplotlib.
+
+```
+month_profit = store_data.groupby('month')['profit'].sum()
+month_profit.plot(marker='o', markersize=8, linestyle='-')
+plt.title('Distribution of Profit')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/profit_by_month.png)
 
 
 
