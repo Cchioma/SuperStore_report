@@ -173,4 +173,26 @@ plt.show()
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/cat_region.png)
 #### Insight: The most ordered category is office supplies. West region recorded the highest number of orders followed by the East region.
 
+9.   Segment of buyers in each Region: I created a bar chart using Seaborn to show the distribution of buyer segments by region.
+
+```
+sns.countplot(data=store_data, x='region',hue='segment')
+plt.title('Buyers segment by Region')
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/region_by_segment.png)
+#### Insight: Consumer products were the most ordered followed by corporate products. The west region recorded the highest numbers of buyers followed by the East region. 
+
+10.   Sub-category and which category they belong to: I created a bar chart using seaborn to show the distribution of Sub-category by category.
+
+```
+plt.figure(figsize=(15, 10))
+sns.countplot(data=store_data, x='sub_category',hue='category')
+plt.title('Distribution of Sub-category by Category')
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/cat_by_subcat.png)
+#### Insight: The most ordered sub-category is Binders followed by paper. Both sub-categories belong to the office supplies category. 
+
+
 
