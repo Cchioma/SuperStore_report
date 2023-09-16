@@ -80,8 +80,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/sales_by_month.png)
 
-### Insight:
-The company recorded it's highest sales in November followed by September and March. It recorded the least sales in February.
+#### Insight: The company recorded it's highest sales in November followed by September and March. It recorded the least sales in February.
 
 2.    Profit distribution: I created a new column month_profit by grouping profit by month and plotted a line chart using Matplotlib.
 
@@ -94,8 +93,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/profit_by_month.png)
 
-### Insight:
-The company recorded it's highest profit in December followed by September and March. It recorded its lowest profit in January.
+#### Insight: The company recorded its highest profit in December followed by September and March. It recorded its lowest profit in January.
 
 3.   Most ordered category of product: I created a new column prod_category by grouping  quantity by category and plotting a bar chart using Matplotlib.
 
@@ -110,10 +108,9 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/most_ordered_cat.png)
 
-### Insight:
-The most ordered Product Category is Office Supplies
+#### Insight: The most ordered Product Category is Office Supplies
 
-4.   Most ordered subcategory: I created a new column prod_category by grouping subcategories by quantity and plotting a bar chart using Matplotlib
+4.   Most ordered subcategory: I created a new column prod_category by grouping subcategories by quantity and plotting a bar chart using Matplotlib.
 
 ```
 prod_category = store_data.groupby('sub_category')['quantity'].sum().sort_values(ascending = False)
@@ -126,10 +123,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/most_ordered_subcat.png)
 
-### Insight:
-The most ordered product Sub-Category is Binders, followed by paper and furnishings
-
-
+#### Insight: The most ordered product Sub-Category is Binders, followed by paper and furnishings
 
 5.  How the product is ordered over the year:  I Plotted a line chart using Seaborn to show the quantity of products ordered over time.
 
@@ -155,9 +149,9 @@ sns.scatterplot(x='sales', y='profit', size='quantity',  hue = 'quantity', data=
 plt.title('Relationship between Sales, Profit, and Quantity')
 plt.show()
 ```
-![](
-### Insight:
-The profit increased as sales increased for a few products ordered. The quantity of products ordered did not have a significant effect on the sales and profit made in the company. The highest profit and sales occurred when just 2 orders were made. The company also recorded negative profit when a large order was made.
+![](https://github.com/Cchioma/SuperStore_report/blob/main/sales_profit_quant2.png)
+
+#### Insight: The profit increased as sales increased for a few products ordered. The quantity of products ordered did not have a significant effect on the sales and profit made in the company. The highest profit and sales occurred when just 2 orders were made. The company also recorded negative profit when a large order was made.
 
 7.   
 
