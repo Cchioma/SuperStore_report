@@ -80,7 +80,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/sales_by_month.png)
 
-#### Insight: The company recorded it's highest sales in November followed by September and March. It recorded the least sales in February.
+#### Insight:The company recorded its highest sales in November followed by September and March. It recorded the least sales in February.
 
 2.    Profit distribution: I created a new column month_profit by grouping profit by month and plotted a line chart using Matplotlib.
 
@@ -138,8 +138,7 @@ plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/product_over_time.png)
 
-### Insight:
-The company recorded the highest orders in January, August and November. It recorded its lowest orders in February.
+### Insight: The company recorded the highest orders in January, August and November. It recorded its lowest orders in February.
 
 6.  Relationship between sales, profit, and quantity:  I created a scatter plot to show the relationship between sales, profit, and quantity.
 
