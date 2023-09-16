@@ -23,27 +23,34 @@ The goal of this project is to analyze and derive valuable insights from a compr
 
 ## Data Preparation
 
-I cleaned and analyzed the data using Python on Jupiter Notebook. Firstly, I imported the necessary libraries:
+1.   I cleaned and analyzed the data using Python on Jupiter Notebook. Firstly, I imported the necessary libraries:
 ```
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-Then, I Loaded the dataset:
+2.   Then, I Loaded the dataset:
 ```
 store_data = pd.read_csv('superstore_cleaned.csv')
 ```
-I reviewed the first 3 rows of the dataset:
+3.   I reviewed the first 3 rows of the dataset:
 ```
 store_data.head(3)
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/head3.PNG)
 
-I checked for data types:
+4.   I checked for data types:
 ```
 store_data.dtypes
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/distribution.PNG)
+
+5. I reviewed the statistical distribution of the dataset.
+
+```
+store_data.describe()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/describe.PNG)
 
 ## Data Cleaning
 The dataset contained 22 columns and 9994 rows. The dataset can be found [here](https://github.com/Cchioma/SuperStore_report/blob/main/superstore_cleaned.csv) I cleaned them as follows:
