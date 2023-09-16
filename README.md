@@ -21,7 +21,7 @@ The goal of this project is to analyze and derive valuable insights from a compr
 14.  Profit made from each category
 15.  States with loss (negative profit)
 
-## Data Preparation/Cleaning
+## Data Preparation
 
 I cleaned and analyzed the data using Python on [Jupiter Notebook](). Firstly, I imported the necessary libraries:
 ```
@@ -45,7 +45,9 @@ store_data.dtypes
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/distribution.PNG)
 
+## Data Cleaning
 The dataset contained 22 columns and 9994 rows. The dataset can be found [here](https://github.com/Cchioma/SuperStore_report/blob/main/superstore_cleaned.csv) I cleaned them as follows:
+
 1.  Checked for missing values and there were none.
    ```
   store_data.isnull().sum()
@@ -88,6 +90,45 @@ plt.xticks(rotation=45)
 plt.show()
 ```
 ![](https://github.com/Cchioma/SuperStore_report/blob/main/profit_by_month.png)
+
+3.   Most ordered category of product: I created a new column prod_category by grouping  quantity by category and plotting a bar chart using Matplotlib.
+
+```
+prod_category = store_data.groupby('category')['quantity'].sum()
+prod_category.plot(kind = 'bar')
+plt.xticks(rotation=45)
+plt.xlabel(' ')
+plt.ylabel('Quantity')
+plt.title(' Product Category by Quantity')
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/most_ordered_cat.png)
+
+4.   Most ordered subcategory: I created a new column prod_category by grouping subcategories by quantity and plotting a bar chart using Matplotlib
+
+```
+prod_category = store_data.groupby('sub_category')['quantity'].sum().sort_values(ascending = False)
+prod_category.plot(kind = 'bar')
+plt.xticks(rotation=45)
+plt.xlabel(' ')
+plt.ylabel('Quantity')
+plt.title(' Product Sub_category by Quantity')
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/most_ordered_subcat.png)
+
+5.  How the product is ordered over the year:  I Plotted a line chart using Seaborn to show the quantity of products ordered over time.
+
+```
+sns.set_style("whitegrid")
+sns.lineplot(x='month', y='quantity', data=store_data, marker='o', markersize=8, color='g')
+plt.xlabel(' ')
+plt.ylabel('Quantity ordered')
+plt.title('Quantity of products ordered  over time')
+plt.xticks(rotation=45)
+plt.show()
+```
+![](https://github.com/Cchioma/SuperStore_report/blob/main/product_over_time.png)
 
 
 
