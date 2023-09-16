@@ -1,4 +1,4 @@
-![background image](https://github.com/Cchioma/SuperStore_report/blob/main/store_4.jpg)
+![background image](https://github.com/Cchioma/SuperStore_report/blob/main/store_91.jpg)
 
 # Super Store Data Analysis
 ## Introduction
@@ -265,13 +265,13 @@ plt.show()
 
 ## Recommendations
 
-1.	Given that the company's highest sales and profits are typically recorded in November and December, They could consider launching marketing campaigns and promotions during these months to maximize revenue.
-2.	To improve January's performance, The company can explore strategies to sustain the holiday season's momentum into the new year.
-3.	Since "Office Supplies" is the most ordered category, and "Binders" and "Paper" are the most ordered subcategories, The company can consider expanding the product range or introducing new, related items to capitalize on this popularity.
-4.	The company should investigate the products and circumstances that lead to negative profits with large orders. They can introduce cost-saving measures or pricing adjustments to avoid such losses.
-5.	The company should explore opportunities to optimize shipping costs and delivery times to improve customer satisfaction and potentially increase sales.
-6.	Given that the West region consistently recorded the highest sales and profit, The company should consider allocating additional resources and marketing efforts to it to further capitalize on this market.
-7.	The company can analyze the consumer and corporate segments' buying behavior to tailor marketing and product offerings to their specific needs and preferences.
+1.	Considering the company's peak sales and profits in November and December, it is advisable for the company to implement targeted marketing campaigns and promotions during these months to maximize revenue.
+2.	To enhance performance in January, the company should explore strategies to maintain the positive sales momentum from the holiday season into the new year.
+3.	Given the popularity of "Office Supplies" as the most ordered category and "Binders" and "Paper" as the most ordered subcategories, the company should consider diversifying the product range within these categories to leverage their high demand.
+4.	The company should investigate and address the factors contributing to negative profits on large orders. Implementing cost-saving measures or pricing adjustments can help mitigate such losses.
+5.	Exploring opportunities for optimizing shipping costs and delivery times can enhance customer satisfaction and potentially lead to increased sales.
+6.	As the West region consistently demonstrates the highest sales and profit, allocating additional resources and intensifying marketing efforts in this region can further capitalize on its potential.
+7.	Analyzing the buying behavior of consumer and corporate segments can help the company tailor marketing strategies and product offerings to their distinct needs and preferences.
 
 
 ## Thank you!!!
