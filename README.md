@@ -266,12 +266,16 @@ plt.show()
 ## Recommendations
 
 1.	Given that the company's highest sales and profits are typically recorded in November and December, They could consider launching marketing campaigns and promotions during these months to maximize revenue.
-2.	To improve January's performance, It can explore strategies to sustain the holiday season's momentum into the new year.
-3.	Since "Office Supplies" is the most ordered category, and "Binders" and "Paper" are the most ordered subcategories consider expanding the product range or introducing new, related items to capitalize on this popularity.
+2.	To improve January's performance, The company can explore strategies to sustain the holiday season's momentum into the new year.
+3.	Since "Office Supplies" is the most ordered category, and "Binders" and "Paper" are the most ordered subcategories, The company can consider expanding the product range or introducing new, related items to capitalize on this popularity.
 4.	The company should investigate the products and circumstances that lead to negative profits with large orders. They can introduce cost-saving measures or pricing adjustments to avoid such losses.
 5.	The company should explore opportunities to optimize shipping costs and delivery times to improve customer satisfaction and potentially increase sales.
-6.	Given that the West region consistently records the highest sales and profit, The company can consider allocating additional resources and marketing efforts to it to further capitalize on this market.
+6.	Given that the West region consistently recorded the highest sales and profit, The company should consider allocating additional resources and marketing efforts to it to further capitalize on this market.
 7.	The company can analyze the consumer and corporate segments' buying behavior to tailor marketing and product offerings to their specific needs and preferences.
+
+
+## Thank you!!!
+![](https://github.com/Cchioma/SuperStore_report/blob/main/thank_you2.jpg)
 
 
 
